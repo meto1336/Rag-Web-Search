@@ -24,7 +24,7 @@ if query == "":
     st.stop()  # Stop execution if the query is empty
 
 # Construct the search URL with the user's query
-link = f"https://searx.be/search?q={query}&region=de&engines=google"
+link = f"https://searx.be/search?q={query}&region=de&engines=bing"
 
 # Define the headers for the HTTP request
 header = {
